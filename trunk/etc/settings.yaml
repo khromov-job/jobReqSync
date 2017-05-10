@@ -1,0 +1,44 @@
+# Конфигурационный файл для jobReqSync
+
+count: 10
+data_sources:
+  - id: int_req # Заявки внутренний сегмент
+    type: WEB # Тип источника данных
+    priority: 1 # Приоритет обработки (чем меньше значение, тем выше приоритет)
+    params:
+      data_host: http://tb-serv-task-int.sec45.ccr.dep4.niitp:2091  # Хост
+      data_uri: /request/requests.json?is_changed=true&is_syncable=true # Путь к ресурсу для получения данных
+      auth_url: http://tb-serv-task-int.sec45.ccr.dep4.niitp:2091/auth/authenticate.json # Адрес сервиса авторизации
+      username: job # Имя пользователя
+      password: job2016niitp # Пароль
+    data_type: REQUEST # Тип структуры данных
+  - id: ext_req # Заявки внешний сегмент
+    type: WEB
+    priority: 2
+    params:
+      data_host: http://tb-serv-task-ext.sec45.ccr.dep4.niitp:2091
+      data_uri: /request/requests.json?is_changed=true&is_syncable=true
+      auth_url: http://tb-serv-task-ext.sec45.ccr.dep4.niitp:2091/auth/authenticate.json
+      username: job
+      password: job2016niitp
+    data_type: REQUEST
+  - id: int_route # Маршруты внутренний сегмент
+    type: WEB
+    priority: 3
+    params:
+      data_host: http://tb-serv-task-int.sec45.ccr.dep4.niitp:2091
+      data_uri: /request/regions/routes.json?is_changed=true
+      auth_url: http://tb-serv-task-int.sec45.ccr.dep4.niitp:2091/auth/authenticate.json
+      username: job
+      password: job2016niitp
+    data_type: ROUTE
+  - id: ext_route # Маршруты внешний сегмент
+    type: WEB
+    priority: 4
+    params:
+      data_host: http://tb-serv-task-ext.sec45.ccr.dep4.niitp:2091
+      data_uri: /request/regions/routes.json?is_changed=true
+      auth_url: http://tb-serv-task-ext.sec45.ccr.dep4.niitp:2091/auth/authenticate.json
+      username: job
+      password: job2016niitp
+    data_type: ROUTE

@@ -1,0 +1,42 @@
+version: 1
+disable_existing_loggers: False
+# объекты, задающие формат вывода сообщений хендлера
+formatters:
+  syslog_format:
+    format: '%(processName)s[%(process)d]: %(unitype)s%(uniapp)s%(message)s'
+  file_format:
+    format: '[%(asctime)s]  %(levelname)-8s  %(message)s'
+
+# хендлеры - управляют потоком вывода сообщений
+handlers: 
+  file: # имя хендлера
+    class: logging.FileHandler # тип хендлера (файловый, консольный,...)
+    level: INFO # уровень логгирования
+    formatter: file_format # задает формат вывода
+    filename: /tmp/jobReqSync.log # путь к лог-файлу
+  syslog:
+    class: logging.handlers.SysLogHandler
+    address: /dev/log
+    level: INFO
+    formatter: syslog_format
+
+# Нужно ли вообще перечислять все логеры здесь или достаточно задать параметры для root, которые будут наследоваться
+# остальными логерами
+# логгеры - могут работать с несколькими хендлерами с разными уровнями логирования
+loggers:
+  request_sync:
+    level: INFO
+    handlers: [file]
+    propagate: no
+  job_launcher:
+    level: INFO # уровень логирования логгера (хендлеры не могут иметь уровень более подробный)
+    handlers: [file] # выбор хендлеров
+    propagate: no # будет ли логгер распространять сообщения хендлерам, связанным с родительским логгером
+  requests:
+    hadlers: logging.NullHandler
+    propagate: no
+
+
+root: # родительский логгер (по умолчанию)
+  level: INFO
+  handlers: [file]

@@ -1,0 +1,6 @@
+{
+    "id": 419,
+    "suitable": 1,
+    "request_region_uuid": "49c2df36-4af9-573e-8e62-160de8e37ccd",
+    "metadata_identifier": "ETRIS.MM2.MSU101.2679.0.10.2015-01-13.L1B.NTSOMZ_MSK.NTSOMZ_MSK"
+}

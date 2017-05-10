@@ -1,0 +1,262 @@
+{
+    "received": "2017-02-01T21:00:00Z",
+    "comment": null,
+    "number": "9819-РП",
+    "source_uuid": "937e9b96-e21b-56ed-9bdf-d184879be104",
+    "regions": {
+        "912dc511-c072-5b50-8039-cdf132d54ca1": {
+            "max_file_size": 4,
+            "stations": {
+                "d6bba8f4-ac30-5bfe-80bc-5c5182473942": {
+                    "id": 2496938,
+                    "station_uuid": "d6bba8f4-ac30-5bfe-80bc-5c5182473942",
+                    "station_id": 1
+                }
+            },
+            "end_shooting": "2017-07-31",
+            "resolution_hyper_spectral_mode": null,
+            "minimal_coverage_percent": 100,
+            "period_day_begin": null,
+            "min_angle": -30,
+            "period_day_end": null,
+            "name": "Карабаш (4)",
+            "sensors": {
+                "4cfd457b-4196-542c-a629-fd0077a10142": {
+                    "bands": {},
+                    "id": 578728,
+                    "sensor_uuid": "4cfd457b-4196-542c-a629-fd0077a10142",
+                    "plcs": {
+                        "ccee324a04a5f15c1391a9db01725121": {
+                            "bits_per_pixel": 16,
+                            "id": 410374,
+                            "srs_id": 32641,
+                            "plc_uuid": "c027ba21-e4ad-5030-ae63-4cba952fa708",
+                            "plc_id": 117,
+                            "format_uuid": "51bc73ff-7d9e-5675-b309-6eb7f96ac7fd",
+                            "format_id": 12
+                        }
+                    },
+                    "sensor_id": 4
+                }
+            },
+            "canceled": null,
+            "period_month_end": null,
+            "max_angle": 30,
+            "polygon": "MULTIPOLYGON (((60.2083333333332718 55.5191666666666137, 60.2399999999999451 55.5191666666666137, 60.1869444444443857 55.4780555555554997, 60.1680555555554903 55.4833333333332774, 60.2083333333332718 55.5191666666666137)))",
+            "routes": {},
+            "platform_uuid": null,
+            "period_shooting": null,
+            "id": 2009769,
+            "uuid": "912dc511-c072-5b50-8039-cdf132d54ca1",
+            "period_year_begin": null,
+            "resolution_spectral_mode": null,
+            "delivery_method_id": 8,
+            "corrected": null,
+            "period_month_begin": null,
+            "given": null,
+            "platform_type_id": 4,
+            "max_sun": 90,
+            "min_sun": 30,
+            "comment": null,
+            "begin_shooting": "2017-07-01",
+            "max_azimuth_sun": null,
+            "resolution_stereo_mode": null,
+            "required_date": null,
+            "resolution_panchromatic": null,
+            "max_cloudiness": 10,
+            "delivery_method_uuid": "4a50aa23-9e8b-5ab8-af27-e2ab5e72c716",
+            "period_year_end": null,
+            "min_azimuth": null,
+            "platform_id": null,
+            "min_azimuth_sun": null,
+            "platform_type_uuid": "4cfd457b-4196-542c-a629-fd0077a10142",
+            "max_azimuth": null,
+            "prizstereo": 0,
+            "region_type": null
+        },
+        "asdf511-c072-5b50-8039-cdf132d5asdf": {
+            "max_file_size": 5,
+            "platform_type_id": 4,
+            "max_sun": 90,
+            "end_shooting": "2017-07-31",
+            "resolution_hyper_spectral_mode": null,
+            "minimal_coverage_percent": 90,
+            "period_day_begin": null,
+            "comment": null,
+            "stations": {
+                "d6bba8f4-ac30-5bfe-80bc-5c5182473942": {
+                    "station_uuid": "d6bba8f4-ac30-5bfe-80bc-5c5182473942",
+                    "station_id": 3
+                }
+            },
+            "given": null,
+            "begin_shooting": "2017-07-01",
+            "period_day_end": null,
+            "platform_type_uuid": "4cfd457b-4196-542c-a629-fd0077a10142",
+            "name": "Абсолютно новый район",
+            "max_azimuth_sun": null,
+            "resolution_stereo_mode": null,
+            "sensors": {
+                "4cfd457b-4196-542c-a629-fd0077a10142": {
+                    "bands": {},
+                    "sensor_uuid": "4cfd457b-4196-542c-a629-fd0077a10142",
+                    "plcs": {
+                        "ccee324a04a5f15c1391a9db01725121": {
+                            "bits_per_pixel": 16,
+                            "plc_id": 117,
+                            "srs_id": 32641,
+                            "plc_uuid": "c027ba21-e4ad-5030-ae63-4cba952fa708",
+                            "format_uuid": "51bc73ff-7d9e-5675-b309-6eb7f96ac7fd",
+                            "format_id": 12
+                        }
+                    },
+                    "sensor_id": 4
+                }
+            },
+            "canceled": null,
+            "period_month_end": null,
+            "required_date": null,
+            "period_shooting": null,
+            "routes": {},
+            "max_angle": 100,
+            "polygon": "MULTIPOLYGON (((100.2083333333332718 200.5191666666666137, 300.2399999999999451 400.5191666666666137, 60.1869444444443857 55.4780555555554997, 60.1680555555554903 55.4833333333332774, 60.2083333333332718 55.5191666666666137)))",
+            "min_sun": 30,
+            "corrected": null,
+            "platform_uuid": null,
+            "region_type": null,
+            "delivery_method_uuid": "4a50aa23-9e8b-5ab8-af27-e2ab5e72c716",
+            "max_cloudiness": 10,
+            "resolution_panchromatic": null,
+            "uuid": "asdf511-c072-5b50-8039-cdf132d5asdf",
+            "period_year_end": null,
+            "period_year_begin": null,
+            "min_azimuth": null,
+            "platform_id": null,
+            "min_azimuth_sun": null,
+            "min_angle": -100,
+            "delivery_method_id": 8,
+            "max_azimuth": null,
+            "period_month_begin": null,
+            "prizstereo": 0,
+            "resolution_spectral_mode": null
+        },
+        "9be34313-44f7-5fcc-94cc-407e1fce22d7": {
+            "max_file_size": 4,
+            "stations": {
+                "d6bba8f4-ac30-5bfe-80bc-5c5182473942": {
+                    "id": 2496887,
+                    "station_uuid": "d6bba8f4-ac30-5bfe-80bc-5c5182473942",
+                    "station_id": 1
+                }
+            },
+            "end_shooting": "2017-05-15",
+            "resolution_hyper_spectral_mode": null,
+            "minimal_coverage_percent": 100,
+            "period_day_begin": null,
+            "min_angle": -30,
+            "period_day_end": null,
+            "name": "Аргаяшский район",
+            "sensors": {
+                "64ae740a-c7a1-564f-9b89-175716350831": {
+                    "bands": {
+                        "4df1c7b8-0e1d-5a33-a099-0b9031f12336": {
+                            "id": 1163740,
+                            "band_uuid": "4df1c7b8-0e1d-5a33-a099-0b9031f12336",
+                            "band_id": 39
+                        },
+                        "b4100f57-ace9-51c7-8cf2-7f34841e909e": {
+                            "id": 1163741,
+                            "band_uuid": "b4100f57-ace9-51c7-8cf2-7f34841e909e",
+                            "band_id": 36
+                        }
+                    },
+                    "id": 578658,
+                    "sensor_uuid": "64ae740a-c7a1-564f-9b89-175716350831",
+                    "plcs": {
+                        "2664364a5b743cc1fb599a806ea4956d": {
+                            "bits_per_pixel": 16,
+                            "id": 410304,
+                            "srs_id": 32641,
+                            "plc_uuid": "16ac6faa-41ce-50d0-8737-6dcea343df34",
+                            "plc_id": 110,
+                            "format_uuid": "51bc73ff-7d9e-5675-b309-6eb7f96ac7fd",
+                            "format_id": 12
+                        }
+                    },
+                    "sensor_id": 5
+                },
+                "4cfd457b-4196-542c-a629-fd0077a10142": {
+                    "bands": {},
+                    "id": 578657,
+                    "sensor_uuid": "4cfd457b-4196-542c-a629-fd0077a10142",
+                    "plcs": {
+                        "ccee324a04a5f15c1391a9db01725121": {
+                            "bits_per_pixel": 16,
+                            "id": 410303,
+                            "srs_id": 32641,
+                            "plc_uuid": "c027ba21-e4ad-5030-ae63-4cba952fa708",
+                            "plc_id": 117,
+                            "format_uuid": "51bc73ff-7d9e-5675-b309-6eb7f96ac7fd",
+                            "format_id": 12
+                        }
+                    },
+                    "sensor_id": 4
+                }
+            },
+            "canceled": null,
+            "period_month_end": null,
+            "max_angle": 30,
+            "polygon": "MULTIPOLYGON (((60.1924999999999457 55.2361111111110574, 60.2791666666666046 55.4258333333332800, 60.3211111111110512 55.4502777777777212, 60.4472222222221660 55.4947222222221654, 60.4849999999999426 55.5588888888888377, 60.5461111111110526 55.5838888888888363, 60.6141666666666055 55.5769444444443863, 60.6269444444443835 55.6188888888888329, 60.6069444444443874 55.6249999999999432, 60.6247222222221680 55.6399999999999437, 60.6913888888888238 55.6222222222221632, 60.7105555555554943 55.6058333333332726, 60.7855555555554901 55.6047222222221649, 60.8158333333332664 55.6477777777777192, 60.8369444444443843 55.6447222222221711, 60.8424999999999443 55.6249999999999432, 60.9627777777777169 55.6922222222221635, 60.9369444444443786 55.7049999999999415, 60.9502777777777140 55.7119444444443914, 60.9722222222221575 55.6988888888888383, 61.0413888888888252 55.7030555555555011, 61.0991666666666049 55.6997222222221637, 61.1083333333332774 55.6802777777777251, 61.1438888888888314 55.6924999999999457, 61.1483333333332766 55.7297222222221649, 61.2330555555554881 55.7258333333332843, 61.2497222222221609 55.6777777777777274, 61.2219444444443894 55.6811111111110577, 61.2405555555554884 55.6144444444443948, 61.2866666666666049 55.6105555555555000, 61.3122222222221609 55.5744444444443886, 61.2544444444443883 55.5383333333332772, 61.2677777777777237 55.4902777777777274, 61.2916666666666003 55.4844444444443852, 61.3063888888888258 55.4691666666666094, 61.3013888888888232 55.4355555555555028, 61.2944444444443803 55.4274999999999451, 61.1916666666666060 55.4033333333332791, 61.1505555555554920 55.4083333333332746, 61.0911111111110472 55.3877777777777212, 60.9405555555554983 55.2044444444443911, 60.8277777777777260 55.1349999999999483, 60.7408333333332777 55.1563888888888343, 60.6969444444443837 55.1213888888888306, 60.6288888888888238 55.1444444444443889, 60.4888888888888232 55.1508333333332814, 60.4874999999999403 55.1388888888888289, 60.2983333333332752 55.1563888888888343, 60.2938888888888371 55.1794444444443855, 60.2116666666666092 55.2194444444443917, 60.1924999999999457 55.2361111111110574)))",
+            "routes": {},
+            "platform_uuid": null,
+            "period_shooting": null,
+            "id": 2009718,
+            "uuid": "9be34313-44f7-5fcc-94cc-407e1fce22d7",
+            "period_year_begin": null,
+            "resolution_spectral_mode": null,
+            "delivery_method_id": 8,
+            "corrected": null,
+            "period_month_begin": null,
+            "given": null,
+            "platform_type_id": 4,
+            "max_sun": 90,
+            "min_sun": 30,
+            "comment": null,
+            "begin_shooting": "2017-04-01",
+            "max_azimuth_sun": null,
+            "resolution_stereo_mode": null,
+            "required_date": null,
+            "resolution_panchromatic": null,
+            "max_cloudiness": 15,
+            "delivery_method_uuid": "4a50aa23-9e8b-5ab8-af27-e2ab5e72c716",
+            "period_year_end": null,
+            "min_azimuth": null,
+            "platform_id": null,
+            "min_azimuth_sun": null,
+            "platform_type_uuid": "4cfd457b-4196-542c-a629-fd0077a10142",
+            "max_azimuth": null,
+            "prizstereo": 0,
+            "region_type": null
+        }
+    },
+    "operator_id": null,
+    "is_changed": false,
+    "operator": "",
+    "name": "Измененное абсолютно новое имя",
+    "uuid": "7bf3ac35-cf9c-50e2-8613-f1078d7eb1c7",
+    "canceled": null,
+    "operator_uuid": null,
+    "status": "Согласована",
+    "started": null,
+    "created": "2017-02-02T13:15:06Z",
+    "user_id": 8125,
+    "source_id": 2,
+    "contract": null,
+    "agreed": "2017-02-01T21:00:00Z",
+    "last_modified": "2017-02-22T08:04:41Z",
+    "finished": null,
+    "id": 3154866,
+    "user_uuid": "40d130a5-e11a-5184-a9cc-955d3ec60dda",
+    "status_id": 5,
+    "status_date": "2017-02-01T21:00:00Z"
+}
